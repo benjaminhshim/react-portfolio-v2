@@ -1,0 +1,18 @@
+.about-grid {
+    margin-top: 100px;
+    height: calc(100vh - 275px);
+    margin-bottom: -450px;
+}
+
+.about-header {
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+p a {
+    color: teal;
+}
+
+p a:hover {
+    color: teal;
+}

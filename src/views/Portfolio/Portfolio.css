@@ -1,0 +1,40 @@
+.portfolio-header {
+    text-align: center;
+}
+
+.portfolio-grid {
+    margin-top: 75px;
+}
+
+#kinda-neat {
+    margin-top: 50px;
+    text-align: center;
+    /* width: 35%;
+    height: 35%; */
+    /* margin-bottom: -40px; */
+}
+
+#kinda-neat img {
+    box-shadow: 0px 4px 8px -1px black;
+}
+
+.CustomTabs-tabLabelContainer-301 span {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#kinda-neat h3 {
+    line-height: 1;
+}
+
+@media screen and (max-width: 767px) {
+    /* .Footer-left-529 {
+        float: right!important;
+    }
+    .Footer-right-530 {
+        float: none!important;
+    } */
+
+
+
+}

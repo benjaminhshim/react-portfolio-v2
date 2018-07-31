@@ -1,0 +1,35 @@
+[
+    {
+        "name": "scrapebeast",
+        "type": "fullstack",
+        "src": "scrapebeast.png",
+        "info": "A web scraping application built with HTML5, CSS3, JavaScript, jQuery, Node.js, Express.js, MongoDB & Mongoose",
+        "href": "https://scrapebeast.herokuapp.com/",
+        "title": "Scrapebeast",
+        "item1src": "scrapebeast-1.png",
+        "item2src": "scrapebeast-2.png",
+        "item3src": "scrapebeast-3.png"
+    },
+    {
+        "name": "canvas",
+        "type": "fullstack",
+        "src": "canvas.png",
+        "info": "A fundraising application built with HTML5, CSS3, JavaScript, jQuery, Node.js, Express.js, MySQL & Sequelize",
+        "href": "https://glacial-depths-40871.herokuapp.com/",
+        "title": "Canvas",
+        "item1src": "canvas-1.png",
+        "item2src": "canvas-2.png",
+        "item3src": "canvas-3.png"
+    },
+    {
+        "name": "reactband",
+        "type": "fullstack",
+        "src": "reactband.png",
+        "info": "A music video and tour date search application built with React, Node.js, Express.js, MongoDB & Mongoose",
+        "href": "https://afternoon-lake-49848.herokuapp.com/",
+        "title": "Reactband",
+        "item1src": "reactband.png",
+        "item2src": "reactband-1.png",
+        "item3src": "reactband-2.png"
+    }
+]
