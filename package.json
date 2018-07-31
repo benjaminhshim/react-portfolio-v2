@@ -2,6 +2,7 @@
   "name": "material-kit-react",
   "version": "1.1.0",
   "private": true,
+  "homepage": "https://benjaminhshim.github.io/",
   "dependencies": {
     "@material-ui/core": "1.2.1",
     "@material-ui/icons": "1.1.0",
@@ -27,10 +28,13 @@
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "bootstrap": "^4.1.2",
+    "gh-pages": "^1.2.0",
     "radium": "^0.24.1",
     "react-animations": "^1.0.0",
     "reactstrap": "^6.3.0"
