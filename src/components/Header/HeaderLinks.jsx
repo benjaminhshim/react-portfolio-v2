@@ -5,6 +5,7 @@ import React from "react";
 import withStyles from "@material-ui/core/styles/withStyles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
+import Tooltip from "@material-ui/core/Tooltip";
 
 // core components
 import Button from "components/CustomButtons/Button.jsx";
@@ -37,6 +38,41 @@ function HeaderLinks({ ...props }) {
         >
           About
         </Button>
+      </ListItem>
+
+      <ListItem className={classes.listItem}>
+          <Tooltip
+            id="instagram-tooltip"
+            title="Connect on linkedin"
+            placement={window.innerWidth > 959 ? "top" : "left"}
+            classes={{ tooltip: classes.tooltip }}
+          >
+            <Button
+              color="transparent"
+              href="https://www.linkedin.com/in/benjamin-shim"
+              target="_blank"
+              className={classes.navLink}
+            >
+              <i className={classes.socialIcons + " fab fa-linkedin"} />
+            </Button>
+          </Tooltip>
+        </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="instagram-twitter"
+          title="Find me on github"
+          placement={window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            href="https://github.com/benjaminhshim"
+            target="_blank"
+            color="transparent"
+            className={classes.navLink}
+          >
+            <i className={classes.socialIcons + " fab fa-github"} />
+          </Button>
+        </Tooltip>
       </ListItem>
 
 
