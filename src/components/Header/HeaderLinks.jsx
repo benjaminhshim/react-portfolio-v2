@@ -17,6 +17,15 @@ function HeaderLinks({ ...props }) {
   const { classes } = props;
   return (
     <List className={classes.list}>
+      <ListItem className={classes.listItem}>
+        <Button
+          color="transparent"
+          className={classes.navLink}
+          onClick={props.scrollToPortfolio}
+        >
+          Projects
+        </Button>
+      </ListItem>
 
       <ListItem className={classes.listItem}>
       <Button
@@ -30,17 +39,9 @@ function HeaderLinks({ ...props }) {
         </Button>
       </ListItem>
 
-      <ListItem className={classes.listItem}>
-        <Button
-          color="transparent"
-          className={classes.navLink}
-          onClick={props.scrollToPortfolio}
-        >
-          Projects
-        </Button>
-      </ListItem>
 
-      <ListItem className={classes.listItem}>
+
+      {/* <ListItem className={classes.listItem}>
         <Button
           href=""
           color="transparent"
@@ -50,7 +51,7 @@ function HeaderLinks({ ...props }) {
         >
           Contact
         </Button>
-      </ListItem>
+      </ListItem> */}
     </List>
   );
 }

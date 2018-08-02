@@ -85,14 +85,17 @@ class Components extends React.Component {
         </Parallax>
 
         <div className={classNames(classes.main, classes.mainRaised)}>
-          {/* <About ref={(section) => { this.About = section; }} /> */}
-          <AboutGrid ref={(section) => { this.About = section; }} />
 
           {/* <Portfolio ref={(section) => { this.Portfolio = section; }}/> */}
           <PortfolioGrid ref={(section) => { this.Portfolio = section; }}/>
 
+          {/* <About ref={(section) => { this.About = section; }} /> */}
+          <AboutGrid ref={(section) => { this.About = section; }} />
 
-          <Contact ref={(section) => { this.Contact = section; }}/>
+          
+
+
+          {/* <Contact ref={(section) => { this.Contact = section; }}/> */}
 
         </div>
         <Footer 

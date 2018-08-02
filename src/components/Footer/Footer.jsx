@@ -55,7 +55,7 @@ function Footer({ ...props }) {
                 Projects
               </a>
             </ListItem>
-            <ListItem className={classes.inlineBlock}>
+            {/* <ListItem className={classes.inlineBlock}>
               <a
                 className={classes.block}
                 target="_blank"
@@ -64,7 +64,7 @@ function Footer({ ...props }) {
               >
                 Contact
               </a>
-            </ListItem>
+            </ListItem> */}
           </List>
         </div>
         <div className={classes.right}>
