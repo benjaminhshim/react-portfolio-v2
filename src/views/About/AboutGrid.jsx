@@ -72,15 +72,18 @@ class About extends React.Component {
      
               <div className={classes.description}>
                 <p>
-                Benjamin Shim is a full-stack developer based in Los Angeles, CA. He has spent the last seven years as an audio expert in music, entertainment &amp; digital media production working on music, TV, short films, radio, YouTube and podcasts before he decided to start a new chapter in his career as a developer.
+                {/* Benjamin Shim is a full-stack developer based in Los Angeles, CA. He has spent the last seven years as an audio expert in music, entertainment &amp; digital media production working on music, TV, short films, radio, YouTube and podcasts before he decided to start a new chapter in his career as a developer. */}
+                Benjamin Shim is a content creator, digital media producer and musician turned developer. After spending 7 years as an audio expert in music, entertainment, digital media production, TV, short films, radio, YouTube and podcasts, he is making a transition to a new career in development.
                 <br />
                 <br />
   
-                He is also a musician, content creator and digital media producer specializing in music and audio for short-form visual content.
+                {/* He is also a musician, content creator and digital media producer specializing in music and audio for short-form visual content. */}
+                Why? After working in the entertainment industry creating content, he now looks to create a new type of product leveraging a coding skill set gained from UCLA Extension's Coding Bootcamp and 1000+ hours of practice. He spealizes in MERN stack development with his strengths in JavaScript--React for front end and Node for back end.
                 <br />
                 <br />
   
-                He spends his spare time producing content for his podcast and YouTube channel, Kinda Neat, which has amassed over 250,000 subscribers and 60 million views to-date. Subscribe <a href="https://youtube.com/kindaneat" target="_blank">here</a>.
+                {/* He spends his spare time producing content for his podcast and YouTube channel, Kinda Neat, which has amassed over 250,000 subscribers and 60 million views to-date. Subscribe <a href="https://youtube.com/kindaneat" target="_blank">here</a>. */}
+                On his free time, he works on his YouTube channel which has accumulated over 250,000 subscribers and 60 million views to-date. Check it out <a href="https://youtube.com/kindaneat" target="_blank">here</a>.
                 <br />
                 <br />
                 </p>

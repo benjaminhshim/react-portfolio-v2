@@ -15,6 +15,8 @@ import tabsStyle from "assets/jss/material-kit-react/views/componentsSections/ta
 import KindaNeatSocials from './KindaNeat/KindaNeat.jsx';
 
 import Portfolio from './Portfolio.jsx';
+import PortfolioGridList from './PortfolioGridList.jsx';
+
 import KindaNeatModal from './KindaNeat/KindaNeatModal.jsx';
 import './Portfolio.css';
 
@@ -27,7 +29,7 @@ class PortfolioGrid extends React.Component {
         <div className={classes.container}>
           <div id="nav-tabs">
             <h2 className="portfolio-header">Projects</h2>
-            <div className="portfolio-grid">
+            <div className="portfolio-grid" >
               <GridContainer>
                 <GridItem>
                   <CustomTabs   
@@ -36,7 +38,8 @@ class PortfolioGrid extends React.Component {
                       {
                         tabName: "Web",
                         tabContent: (
-                          <Portfolio />
+                          // <Portfolio />
+                          <PortfolioGridList />
                         )
                       },
                       {

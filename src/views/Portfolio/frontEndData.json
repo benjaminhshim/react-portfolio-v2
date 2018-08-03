@@ -1,0 +1,24 @@
+[
+    {
+        "name": "xxl",
+        "type": "frontend",
+        "src": "xxl.png",
+        "info": "A memory game built with ReactJS & react-animations",
+        "href": "https://xxl-2018-clicky-game.herokuapp.com/",
+        "title": "2018 XXL Freshman Class Memory Game",
+        "item1src": false,
+        "item2src": false,
+        "item3src": false
+    },
+    {
+        "name": "slowshiver",
+        "type": "frontend",
+        "src": "slowshiver.png",
+        "info": "A website for an award-winning composer built with Squarespace and over 1000 lines of custom CSS",
+        "href": "http://slowshiver.com/",
+        "title": "Slow Shiver/Valente Bertelli",
+        "item1src": "slowshiver-1.png",
+        "item2src": "slowshiver-2.png",
+        "item3src": "slowshiver-3.png"
+    }
+]

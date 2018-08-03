@@ -74,6 +74,7 @@ class KindaNeatModal extends React.Component {
                 <div className="kindaneat-img">
                     <img 
                         src={KindaNeat} 
+                        
                     />             
                     <div className="overlay" onClick={() => this.handleClickOpen("classicModal")}>
                         <h4 className="learn-more" style={styles}>Learn More</h4>
