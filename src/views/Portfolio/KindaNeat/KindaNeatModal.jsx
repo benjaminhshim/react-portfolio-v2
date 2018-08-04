@@ -71,7 +71,7 @@ class KindaNeatModal extends React.Component {
         return (
             <div id="kinda-neat">
             
-                <div className="kindaneat-img">
+                <div className="kindaneat-img" style={{borderRadius: "10px"}}>
                     <img 
                         src={KindaNeat} 
                         
@@ -149,6 +149,7 @@ const styles = {
     border: '1px solid teal',
     padding: "15px 35px",
     textTransform: 'uppercase',
+    borderRadius: "4px"
 }
 
 

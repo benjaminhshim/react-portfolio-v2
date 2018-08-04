@@ -1,4 +1,36 @@
 #main-header h1 {
     font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
 }
+
+
+@media screen and (max-width: 992px) {
+    #main-header h1 {
+        
+        font-size: 28px;
+    }
+    #main-header h3 {
+        /* font-size: 14px; */
+        margin-top: 0px;
+        display: none;
+    }
+
+    .Parallax-parallax-180 {
+        height: 50vh !important;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+    #main-header h1 {
+        font-size: 20px;
+        margin-top: 7px;
+    }
+    #main-header h3 {
+        display: none;
+    }
+
+}
+
+
 

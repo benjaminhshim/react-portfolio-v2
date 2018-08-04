@@ -66,6 +66,7 @@ class Components extends React.Component {
 
         <Parallax 
         image={require("assets/img/home_sec.jpg")}
+        id="content-parallax"
         >
           <div 
             className={classes.container} 
@@ -84,7 +85,7 @@ class Components extends React.Component {
           </div>
         </Parallax>
 
-        <div className={classNames(classes.main, classes.mainRaised)}>
+        <div className={classNames(classes.main, classes.mainRaised)} >
 
           {/* <Portfolio ref={(section) => { this.Portfolio = section; }}/> */}
           <PortfolioGrid ref={(section) => { this.Portfolio = section; }}/>

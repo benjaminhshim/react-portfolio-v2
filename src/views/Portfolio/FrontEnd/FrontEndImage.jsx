@@ -1,4 +1,5 @@
 import React from "react";
+import Paper from '@material-ui/core/Paper';
 
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
@@ -14,13 +15,23 @@ import javascriptStyles from "assets/jss/material-kit-react/views/componentsSect
 import SlowShiverCarousel from "./SlowShiverCarousel";
 import frontEndInfo from './frontEnd.json';
 
-// import './CarouselFrontEnd.css';
+import './CarouselFrontEnd.css';
 
 
 function Transition(props) {
   return <Slide direction="down" {...props} />;
 }
 
+const styles = theme => ({
+    root: {
+      flexGrow: 1,
+    },
+    paper: {
+      padding: theme.spacing.unit * 2,
+      textAlign: 'center',
+      color: theme.palette.text.secondary,
+    },
+  });
 
 class FrontEndImage extends React.Component {
     anchorElLeft = null;
@@ -61,24 +72,26 @@ class FrontEndImage extends React.Component {
         const { classes } = this.props;
 
         return (
-            <div style={{borderRadius: "6px",  marginBottom: "-3px"}}>
-                <div className="carousel-img" style={{borderRadius: "6px"}}>
-                    <img
-                        src={require(`assets/img/${this.props.src}`)}
-                        alt="first slide"
-                        className="slick-image"
-                        style={{borderRadius: "6px"}}
+            <div>
+                <div className="frontend-card-front">
+                {/* <Paper> */}
+                    <div className="carousel-img" style={{borderRadius: "6px"}}>
+                        <img
+                            src={require(`assets/img/${this.props.src}`)}
+                            alt="first slide"
+                            className="slick-image"
+                            style={{borderRadius: "6px"}}
 
-                    />
-                    <div className="overlay" onClick={() => this.handleClickOpen("classicModal")}
->
-                        <h4 className="learn-more" style={styles}>Learn More</h4>
+                        />
+                        <div className="overlay" onClick={() => this.handleClickOpen("classicModal")}
+    >
+                            <h4 className="learn-more">Learn More</h4>
+                        </div>
+
                     </div>
-
+                {/* </Paper> */}
                 </div>
 
-                 {/* <div className={classes.section}>
-                   <div className={classes.container}> */}
                 <div>
                     <div>
                         <GridContainer>
@@ -100,20 +113,11 @@ class FrontEndImage extends React.Component {
 
                                             <DialogContent>
                                                 <div>
-                                  
-                                                    
-                                           
-                                                        <SlowShiverCarousel 
+                                                    <SlowShiverCarousel 
                                                         item1src={this.props.item1src}
                                                         item2src={this.props.item2src}
                                                         item3src={this.props.item3src}/>
-                                                    
-                                                        {/* <img 
-                                                        src={require(`assets/img/${this.props.src}`)}
-                                                        width="100%" 
-                                                        height="100%"/> */}
-                                                    
-                                                    
+
                                                 </div>
                                             </DialogContent>
                                           
@@ -140,9 +144,6 @@ class FrontEndImage extends React.Component {
                                                     
                                                 </div>
                                             </DialogContent>
-                                           
-                                            
-                                           
                                         </Dialog>
                                     </GridItem>
                                 </GridContainer>
@@ -154,13 +155,6 @@ class FrontEndImage extends React.Component {
         )
     }
 
-}
-
-
-const styles = {
-    border: '1px solid teal',
-    padding: "15px 35px",
-    textTransform: 'uppercase',
 }
 
 

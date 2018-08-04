@@ -29,7 +29,7 @@ class Skills extends React.Component {
         </GridContainer>
         <div>
           <GridContainer>
-            <GridItem xs={12} sm={12} md={4}>
+            <GridItem xs={12} sm={4} md={4}>
               <InfoArea
                 title="Front End"
                 description="HTML5. CSS3. JavaScript. React. jQuery."
@@ -38,7 +38,7 @@ class Skills extends React.Component {
                 vertical
               />
             </GridItem>
-            <GridItem xs={12} sm={12} md={4}>
+            <GridItem xs={12} sm={4} md={4}>
               <InfoArea
                 title="Back End"
                 description="Node.js. Express.js. MySQL. MongoDB."
@@ -47,7 +47,7 @@ class Skills extends React.Component {
                 vertical
               />
             </GridItem>
-            <GridItem xs={12} sm={12} md={4}>
+            <GridItem xs={12} sm={4} md={4}>
               <InfoArea
                 title="Mobile"
                 description="React Native."

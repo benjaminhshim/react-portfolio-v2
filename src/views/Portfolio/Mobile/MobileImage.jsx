@@ -72,7 +72,7 @@ class MobileImage extends React.Component {
                 />
                 <div className="overlay" onClick={() => this.handleClickOpen("classicModal")}
 >
-                        <h4 className="learn-more" style={styles}>Learn More</h4>
+                        <h4 className="learn-more">Learn More</h4>
                     </div>
                 </div>
 
@@ -101,7 +101,7 @@ class MobileImage extends React.Component {
                                                         src={require(`assets/img/${this.props.src}`)}
                                                         width="35%" 
                                                         height="35%"
-                                                        style={{marginLeft: "auto", marginRight: "auto", display:"block"}}/>
+                                                        style={{marginLeft: "auto", marginRight: "auto", display:"block", borderRadius: "6px"}}/>
                                                 </div>
                                             </DialogContent>
                                           

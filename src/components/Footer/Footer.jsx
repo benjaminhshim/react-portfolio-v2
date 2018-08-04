@@ -39,22 +39,23 @@ function Footer({ ...props }) {
               <a
                 className={classes.block}
                 target="_blank"
-                onClick={props.scrollToAbout}
-
-              >
-                About
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                className={classes.block}
-                target="_blank"
                 onClick={props.scrollToPortfolio}
 
               >
                 Projects
               </a>
             </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a
+                className={classes.block}
+                target="_blank"
+                onClick={props.scrollToAbout}
+
+              >
+                About
+              </a>
+            </ListItem>
+            
             {/* <ListItem className={classes.inlineBlock}>
               <a
                 className={classes.block}

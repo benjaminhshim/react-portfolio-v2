@@ -2,3 +2,13 @@ footer a:hover {
     color: teal;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .Footer-left-443{
+        float: none !important;
+    }
+    
+    .Footer-right-444{
+        float: none !important;
+    }   
+}

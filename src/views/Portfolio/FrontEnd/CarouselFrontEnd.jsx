@@ -53,8 +53,6 @@ class CarouselFrontEnd extends React.Component {
                       item3src={i.item3src}/>
                   ))}
 
-
-                  
                 </Carousel>
               </div>
               </GridItem>

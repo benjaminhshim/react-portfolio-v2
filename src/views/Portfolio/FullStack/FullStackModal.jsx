@@ -25,6 +25,16 @@ function Transition(props) {
   return <Slide direction="down" {...props} />;
 }
 
+const styles = theme => ({
+    root: {
+      flexGrow: 1,
+    },
+    paper: {
+      padding: theme.spacing.unit * 2,
+      textAlign: 'center',
+      color: theme.palette.text.secondary,
+    },
+  });
 class FullStackModal extends React.Component {
     anchorElLeft = null;
     anchorElTop = null;
@@ -64,9 +74,24 @@ class FullStackModal extends React.Component {
         const { classes } = this.props;
 
         return (
+            <div>
+            <div  className="fullstack-card-front">
+            {/* <Paper> */}
+                <div className="carousel-img" style={{borderRadius: "6px"}}>
+                    <img             
+                        style={{height: "200px", width: "100%", borderRadius: "6px"}}
+                        src={require(`assets/img/${this.props.src}`)}
+                    />
+                    <div className="overlay" onClick={() => this.handleClickOpen("classicModal")}>
+                        <h4 className="learn-more">Learn More</h4>
+                    </div>
+                </div>
+            {/* </Paper> */}
+        </div>
 
                 <div className={classes.section}>
                     <div className={classes.container}>
+                    
                         
                         <GridContainer>
                             <GridItem xs={12} sm={12} md={6} lg={4}>
@@ -118,6 +143,7 @@ class FullStackModal extends React.Component {
                         </GridContainer>
                       
                 </div>
+            </div>
             </div>
         )
     }

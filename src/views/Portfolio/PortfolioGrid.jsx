@@ -29,7 +29,7 @@ class PortfolioGrid extends React.Component {
         <div className={classes.container}>
           <div id="nav-tabs">
             <h2 className="portfolio-header">Projects</h2>
-            <div className="portfolio-grid" >
+            <div className="portfolio-grid">
               <GridContainer>
                 <GridItem>
                   <CustomTabs   

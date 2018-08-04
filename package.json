@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://benjaminhshim.github.io/",
   "dependencies": {
+    "@kennethormandy/react-flipcard": "^0.4.3",
     "@material-ui/core": "1.2.1",
     "@material-ui/icons": "1.1.0",
     "ajv": "6.0.0",
@@ -12,8 +13,10 @@
     "node-sass-chokidar": "1.3.0",
     "npm-run-all": "4.1.3",
     "react": "16.4.0",
+    "react-card-flip": "^0.2.1",
     "react-datetime": "2.14.0",
     "react-dom": "16.4.0",
+    "react-flipcard-2": "^0.3.2",
     "react-nouislider": "2.0.1",
     "react-router-dom": "4.3.1",
     "react-scripts": "1.1.4",
@@ -37,6 +40,7 @@
     "gh-pages": "^1.2.0",
     "radium": "^0.24.1",
     "react-animations": "^1.0.0",
+    "react-flipcard": "^0.2.1",
     "reactstrap": "^6.3.0"
   }
 }

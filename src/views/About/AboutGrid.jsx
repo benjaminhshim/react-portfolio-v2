@@ -92,7 +92,9 @@ class About extends React.Component {
             </GridContainer>
 
           </div>
-          <Skills />
+          <div id="skills-div">
+            <Skills />
+          </div>
 
         </div>
       </div>

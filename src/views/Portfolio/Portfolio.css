@@ -4,10 +4,12 @@
 
 .portfolio-grid {
     margin-top: 75px;
+    height: calc(100vh - 290px);
+
 }
 
 #kinda-neat {
-    margin-top: 50px;
+    margin-top: 25px;
     text-align: center;
     /* width: 35%;
     height: 35%; */
@@ -27,14 +29,82 @@
     line-height: 1;
 }
 
-@media screen and (max-width: 767px) {
-    /* .Footer-left-529 {
-        float: right!important;
+@media screen and (max-width: 1200px) {
+    .carousel-img{
+       height: 150px;
     }
-    .Footer-right-530 {
-        float: none!important;
-    } */
+    .carousel-img img{
+        min-height: 100%;
+    }
+    .portfolio-grid {
+        height: auto;
+    }
 
+}
 
+@media screen and (max-width: 994px) {
+    .MuiGrid-container-184 div {
+        display: block;
+    }
 
+    .fullstack-card-front,
+    .frontend-card-front,
+    .xxl-card-front,
+    .mobile-card-front {
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .carousel-img {
+        min-height: 275px;
+        margin-bottom: 0px;
+    }
+
+    .carousel-img img{
+        min-height: 100%;
+    }
+
+    .portfolio-header {
+        margin-top: -50px;
+    }
+
+    .portfolio-grid {
+        height: auto;
+    }
+
+    .fullstack-card-front {
+        margin-bottom: -75px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .portfolio-header {
+        margin-top: -50px;
+    }
+    .portfolio-grid {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-img {
+        min-height: 200px;
+        margin-bottom: 0px;
+    }
+
+    .carousel-img img{
+        min-height: 100%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .carousel-img {
+        min-height: 150px;
+        margin-bottom: 0px;
+    }
+
+    .carousel-img img{
+        min-height: 100%;
+    }
 }

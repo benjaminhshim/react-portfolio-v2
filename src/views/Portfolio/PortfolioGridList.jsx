@@ -1,11 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
-import fullstackData from './fullStackData.json';
-import frontendData from './frontEndData.json';
 
+import Grid from '@material-ui/core/Grid';
+import Slide from "@material-ui/core/Slide";
+
+import FullStackGridItem from './FullStack/FullStackGridItem.jsx';
+import MobileGridItem from './Mobile/MobileGridItem.jsx';
+import FullStackModal from './FullStack/FullStackModal.jsx';
+import fullstackData from './fullStackData.json';
+import frontEndData from './frontEndData.json';
+import mobileData from './Mobile/mobile.json';
+
+// import './KindaNeat/KindaNeat.css';
+
+import FrontEndImage from './FrontEnd/FrontEndImage';
+import XXLImage from './FrontEnd/XXLImage';
+
+
+function Transition(props) {
+    return <Slide direction="down" {...props} />;
+}
 
 const styles = theme => ({
   root: {
@@ -18,84 +33,89 @@ const styles = theme => ({
   },
 });
 
-function PortfolioGridList(props) {
-  const { classes } = props;
+class PortfolioGridList extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            flipped: false,
+          }
+    }
 
-  return (
-    <div className={classes.root} style={{marginBottom: "20px"}}>
-        <Grid container spacing={24}>
+    render() {
+        const { classes } = this.props;
 
-            {fullstackData.map(i => (
-                <Grid item xs style={{margin: "20px 0px"}}>
-                    <Paper>
-                        <img             
-                            style={{height: "200px", width: "100%", borderRadius: "3px"}}
-                            src={require(`assets/img/${i.src}`)}
-                        />
-                    </Paper>
-                </Grid>
-            ))}
+        return (
+            <div className={classes.root} style={{marginBottom: "20px"}}>
 
-        </Grid>
+                <Grid container spacing={24}>
+                    {fullstackData.map(i => (
+                        <Grid item xs style={{margin: "20px 0px 0px 0px"}} className="grid-item-full-stack">
 
-        <Grid container spacing={24}>
+                            <FullStackModal 
+                                src={i.src}
+                                info={i.info}
+                                href={i.href}
+                                title={i.title}
+                                item1src={i.item1src}
+                                item2src={i.item2src}
+                                item3src={i.item3src}/>
+                        </Grid>
+                    ))}
 
-            {frontendData.map(i => (
-                <Grid item xs>
-                    <Paper>
-                        <img             
-                            style={{height: "200px", width: "100%", borderRadius: "3px"}}
-                            src={require(`assets/img/${i.src}`)}
-                        />
-                    </Paper>
-                </Grid>
-            ))}
-
-                <Grid item xs>
-                    <Paper>
-                        <img             
-                            style={{height: "200px", width: "33%", margin: "0 auto", display: "block", borderRadius: "3px"}}
-                            src={require(`assets/img/astrolab.png`)}
-                        />
-                    </Paper>
                 </Grid>
 
-        </Grid>
+                <Grid container spacing={24}>
+                    {frontEndData.map(i => (
+                        !i.item1src && !i.item2src && !i.item3src 
+                        ?
+                            <Grid item xs style={{margin: "10px 0px 0px 0px"}}>
+                                <XXLImage 
+                                    src={i.src}
+                                    info={i.info}
+                                    href={i.href}
+                                    title={i.title}/>
+                            </Grid>
+                        :
+                            <Grid item xs style={{margin: "10px 0px 0px 0px"}}>
+                                <FrontEndImage 
+                                    src={i.src}
+                                    info={i.info}
+                                    href={i.href}
+                                    title={i.title}
+                                    item1src={i.item1src}
+                                    item2src={i.item2src}
+                                    item3src={i.item3src}/>
+                            </Grid>
+                    ))}
 
+                    {mobileData.map(i => (
+                        <Grid item xs style={{margin: "10px 0px 0px 0px"}}>
+                            <MobileGridItem 
+                                src={i.src}
+                                info={i.info}
+                                href={i.href}
+                                title={i.title}
+                                item1src={i.item1src}
+                                item2src={i.item2src}
+                                item3src={i.item3src}/>
+                        </Grid>
+                    ))}
 
-        {/* <Grid item xs>
-          <Paper>
-            <img             
-                style={{height: "200px", width: "100%", borderRadius: "3px"}}            
-                src={require(`assets/img/scrapebeast.png`)}
-            />
-
-        
-            </Paper>
-        </Grid>
-        <Grid item xs>
-          <Paper className={classes.paper}></Paper>
-        </Grid>
-        <Grid item xs>
-          <Paper className={classes.paper}></Paper>
-        </Grid>
-      </Grid>
-      <Grid container spacing={24}>
-        <Grid item xs>
-          <Paper className={classes.paper}></Paper>
-        </Grid>
-        <Grid item xs>
-          <Paper className={classes.paper}></Paper>
-        </Grid>
-        <Grid item xs>
-          <Paper className={classes.paper}></Paper>
-        </Grid> */}
-    </div>
-  );
+                </Grid>
+            </div>
+        );
+    }
+  
 }
 
 PortfolioGridList.propTypes = {
   classes: PropTypes.object.isRequired,
 };
+
+const learnMoreButtonStyle = {
+    border: '1px solid teal',
+    padding: "10px 20px",
+    textTransform: 'uppercase',
+}
 
 export default withStyles(styles)(PortfolioGridList);

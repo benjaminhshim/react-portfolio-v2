@@ -78,10 +78,10 @@ class FullStackImage extends React.Component {
                 <div>
                     {/* <div className={classes.container}> */}
                     <div>
-                        <GridContainer>
-                            <GridItem xs={12} sm={12} md={6}>
+                    <GridContainer>
+                            <GridItem xs={12} sm={12} md={6} lg={8}>
                                 <GridContainer>
-                                    <GridItem xs={12} sm={12} md={6} lg={4}>
+                                    <GridItem xs={12} sm={12} md={6} lg={8}>
                                         <Dialog
                                             classes={{
                                             root: classes.center,
