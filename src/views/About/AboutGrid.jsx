@@ -59,18 +59,21 @@ class About extends React.Component {
   render() {
     const { classes } = this.props;
     return (
+      <div className="about-grid">
+
       <div className={classes.sections}>
         <div className={classes.container}>
+
           <div className={classes.title}>
             <h2 className="about-header">About</h2>
           </div>
 
-      
-          <div className="about-grid">
-            <GridContainer>
-              <GridItem >
+            {/* <div className="about-grid"> */}
+
+            {/* <GridContainer>
+              <GridItem > */}
      
-              <div className={classes.description}>
+              <div className={classes.description} id="about-body">
                 <p>
                 {/* Benjamin Shim is a full-stack developer based in Los Angeles, CA. He has spent the last seven years as an audio expert in music, entertainment &amp; digital media production working on music, TV, short films, radio, YouTube and podcasts before he decided to start a new chapter in his career as a developer. */}
                 Benjamin Shim is a content creator, digital media producer and musician turned developer. After spending 7 years as an audio expert in music, entertainment, digital media production, TV, short films, radio, YouTube and podcasts, he is making a transition to a new career in development.
@@ -88,12 +91,13 @@ class About extends React.Component {
                 <br />
                 </p>
               </div>
-              </GridItem>
-            </GridContainer>
+              {/* </GridItem>
+            </GridContainer> */}
+            {/* </div> */}
 
-          </div>
           <div id="skills-div">
             <Skills />
+          </div>
           </div>
 
         </div>
