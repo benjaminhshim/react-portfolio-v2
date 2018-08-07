@@ -29,7 +29,7 @@
     line-height: 1;
 }
 
-@media screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     .carousel-img{
        height: 150px;
     }
@@ -42,7 +42,7 @@
 
 }
 
-@media screen and (max-width: 994px) {
+@media only screen and (max-width: 994px) {
     .MuiGrid-container-184 div {
         display: block;
     }
@@ -78,7 +78,7 @@
     }
 }
 
-@media screen and (max-width: 960px) {
+@media only screen and (max-width: 960px) {
     .portfolio-header {
         margin-top: -50px;
     }
@@ -87,7 +87,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .carousel-img {
         min-height: 200px;
         margin-bottom: 0px;
@@ -98,7 +98,7 @@
     }
 }
 
-@media screen and (max-width: 568px) {
+@media only screen and (max-width: 568px) {
     .carousel-img {
         min-height: 150px;
         margin-bottom: 0px;

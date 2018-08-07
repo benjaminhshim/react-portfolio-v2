@@ -20,5 +20,16 @@
         "item1src": "slowshiver-1.png",
         "item2src": "slowshiver-2.png",
         "item3src": "slowshiver-3.png"
+    },
+    {
+        "name": "astrolab-web",
+        "type": "fullstack",
+        "src": "astrolab-web.png",
+        "info": "Full-stack application built with React.js, Node.js, Express.js, MongoDB & Mongoose",
+        "href": "http://slowshiver.com/",
+        "title": "Astrolab (Coming Soon...)",
+        "item1src": false,
+        "item2src": false,
+        "item3src": false
     }
 ]

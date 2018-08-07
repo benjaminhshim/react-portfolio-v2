@@ -88,6 +88,22 @@ class PortfolioGridList extends React.Component {
                             </Grid>
                     ))}
 
+                    {/* {mobileData.map(i => (
+                        <Grid item xs style={{margin: "10px 0px 0px 0px"}}>
+                            <MobileGridItem 
+                                src={i.src}
+                                info={i.info}
+                                href={i.href}
+                                title={i.title}
+                                item1src={i.item1src}
+                                item2src={i.item2src}
+                                item3src={i.item3src}/>
+                        </Grid>
+                    ))} */}
+
+                </Grid>
+
+                {/* <Grid container spacing={24}>
                     {mobileData.map(i => (
                         <Grid item xs style={{margin: "10px 0px 0px 0px"}}>
                             <MobileGridItem 
@@ -100,8 +116,7 @@ class PortfolioGridList extends React.Component {
                                 item3src={i.item3src}/>
                         </Grid>
                     ))}
-
-                </Grid>
+                </Grid> */}
             </div>
         );
     }
