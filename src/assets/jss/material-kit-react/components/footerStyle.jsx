@@ -18,8 +18,8 @@ const footerStyle = {
   },
   right: {
     padding: "15px 0",
-    margin: "0",
-    float: "right"
+    float: "right",
+    margin: "0"
   },
   footer: {
     padding: "0.9375rem 0",

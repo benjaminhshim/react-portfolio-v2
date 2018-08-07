@@ -3,12 +3,26 @@ footer a:hover {
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
-    .Footer-left-443{
+@media only screen and (max-width: 768px) {
+    .Footer-footer-443 {
+        clear: both;
+    }
+    .Footer-left-441 {
         float: none !important;
     }
     
-    .Footer-right-444{
+    .Footer-right-442{
         float: none !important;
     }   
 }
+/* 
+@media only screen and (min-width: 768px) {
+    .Footer-left-441 {
+        float: left !important;
+        border: 1px solid red;
+    }
+    
+    .Footer-right-442{
+        float: right !important;
+    } 
+} */
