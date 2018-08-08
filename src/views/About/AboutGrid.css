@@ -37,6 +37,8 @@ p a:hover {
     #skills-div {
         margin-top: auto;
     }
-
+    .about-grid {
+        height: auto;
+    }
     
 }
