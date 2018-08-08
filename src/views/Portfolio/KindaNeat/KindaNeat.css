@@ -83,3 +83,24 @@
   #kinda-neat-socials {
     margin-top: 10px;
   }
+
+
+  @media only screen and (max-width: 960px) {
+    #kinda-neat-socials li::after {
+      background: none;
+    }
+    #kinda-neat-socials i{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .kindaneat-img,
+  .kindaneat-img img {
+    height: 200px !important;
+    width: 200px !important;
+  }
+
+}
