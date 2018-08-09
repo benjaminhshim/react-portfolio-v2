@@ -47,7 +47,7 @@
     .overlay,
     .fullstack-grid,
     .frontend-grid {
-        display: block;
+        display: block !important;
     }
 
     .fullstack-card-front,
@@ -55,7 +55,7 @@
     .xxl-card-front,
     .mobile-card-front {
         width: 75%;
-        display: block !important;
+        /* display: block !important; */
         margin: 0 auto;
     }
 
