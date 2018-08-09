@@ -3,9 +3,7 @@
     margin-top: 0px;
 }
 
-.test {
-    background: red;
-}
+
 
 
 @media only screen and (max-width: 992px) {
@@ -21,6 +19,10 @@
 
     .Parallax-parallax-180 {
         height: 50vh !important;
+    }
+
+    .test {
+        background: red;
     }
 
 }
