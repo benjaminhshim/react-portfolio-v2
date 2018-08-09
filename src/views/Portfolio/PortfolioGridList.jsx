@@ -65,7 +65,7 @@ class PortfolioGridList extends React.Component {
 
                 </Grid>
 
-                <Grid container spacing={24}>
+                <Grid container spacing={24} className="frontend-grid">
                     {frontEndData.map(i => (
                         !i.item1src && !i.item2src && !i.item3src 
                         ?

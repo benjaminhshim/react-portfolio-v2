@@ -45,7 +45,8 @@
 @media only screen and (max-width: 994px) {
     .MuiGrid-container-184 div,
     .overlay,
-    .fullstack-grid {
+    .fullstack-grid,
+    .frontend-grid {
         display: block;
     }
 
