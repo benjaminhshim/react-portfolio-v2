@@ -63,7 +63,8 @@ class Components extends React.Component {
           {...rest}
 
         />
-
+          <div className="test">My test"</div>
+          
         <Parallax 
         image={require("assets/img/home_sec.jpg")}
         id="content-parallax"

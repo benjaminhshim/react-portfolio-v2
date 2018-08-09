@@ -23,13 +23,13 @@
     },
     {
         "name": "astrolab-web",
-        "type": "fullstack",
+        "type": "coming-soon",
         "src": "astrolab-web.png",
         "info": "Full-stack application built with React.js, Node.js, Express.js, MongoDB & Mongoose",
         "href": "http://slowshiver.com/",
         "title": "Astrolab (Coming Soon...)",
-        "item1src": false,
-        "item2src": false,
-        "item3src": false
+        "item1src": "astrolab-1.png",
+        "item2src": "astrolab-2.png",
+        "item3src": "astrolab-3.png"
     }
 ]
