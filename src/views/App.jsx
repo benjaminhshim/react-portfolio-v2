@@ -45,6 +45,7 @@ class Components extends React.Component {
         ref={(section) => { this.Home = section; }}
       >
         <Header
+        
           brand="Benjamin Shim"
           scrollToHome={this.scrollToHome}
           rightLinks={
@@ -63,8 +64,8 @@ class Components extends React.Component {
           {...rest}
 
         />
-          <div className="test">My test"</div>
-          
+          <div className="test">ONE</div>
+
         <Parallax 
         image={require("assets/img/home_sec.jpg")}
         id="content-parallax"
