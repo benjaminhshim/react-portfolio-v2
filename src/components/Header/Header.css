@@ -12,7 +12,7 @@ header h1 {
 @media only screen and (max-width: 992px) {
     .header-name{
         margin-top: 5px;
-        font-size: 28px;
+        font-size: 28px !important;
     }
     .header-subtitle {
         font-size: 14px;

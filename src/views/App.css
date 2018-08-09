@@ -5,34 +5,3 @@
 
 
 
-@media only screen and (max-width: 992px) {
-    .header-name{
-        margin-top: 5px;
-        font-size: 28px;
-    }
-    .header-subtitle {
-        font-size: 14px;
-        margin-top: 0px;
-        display: none;
-        /* border: 1px solid red; */
-    }
-
-    .Parallax-parallax-180 {
-        height: 50vh !important;
-    }
-
-}
-
-@media only screen and (max-width: 680px) {
-    .header-name {
-        font-size: 20px;
-        margin-top: 7px;
-    }
-    /* #main-header h3 {
-        display: none;
-    } */
-
-}
-
-
-
