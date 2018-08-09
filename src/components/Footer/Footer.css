@@ -7,22 +7,11 @@ footer a:hover {
     .Footer-footer-443 {
         clear: both;
     }
-    .classOne.classTwo {
+    .footer-left {
         float: none !important;
     }
     
-    .Footer-right-442{
+    .footer-right{
         float: none !important;
     }   
 }
-/* 
-@media only screen and (min-width: 768px) {
-    .Footer-left-441 {
-        float: left !important;
-        border: 1px solid red;
-    }
-    
-    .Footer-right-442{
-        float: right !important;
-    } 
-} */

@@ -23,7 +23,7 @@ function Footer({ ...props }) {
   return (
     <footer className={footerClasses}>
       <div className={classes.container}>
-        <div className={`${classes.left} classOne classTwo`}>
+        <div className={`${classes.left} footer-left`}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
@@ -68,7 +68,7 @@ function Footer({ ...props }) {
             </ListItem> */}
           </List>
         </div>
-        <div className={classes.right}>
+        <div className={`${classes.right} footer-right`}>
           &copy; {1900 + new Date().getYear()}, built with React
            by Benjamin Shim
         </div>

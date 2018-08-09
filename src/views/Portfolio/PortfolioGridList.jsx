@@ -52,6 +52,7 @@ class PortfolioGridList extends React.Component {
                         <Grid item xs style={{margin: "20px 0px 0px 0px"}} className="grid-item-full-stack">
 
                             <FullStackModal 
+                                className="fullstack-card-front"
                                 src={i.src}
                                 info={i.info}
                                 href={i.href}
@@ -70,6 +71,7 @@ class PortfolioGridList extends React.Component {
                         ?
                             <Grid item xs style={{margin: "10px 0px 0px 0px"}}>
                                 <XXLImage 
+                                    className="xxl-card-front"
                                     src={i.src}
                                     info={i.info}
                                     href={i.href}
@@ -78,6 +80,7 @@ class PortfolioGridList extends React.Component {
                         :
                             <Grid item xs style={{margin: "10px 0px 0px 0px"}}>
                                 <FrontEndImage 
+                                    className="frontend-card-front"
                                     src={i.src}
                                     info={i.info}
                                     href={i.href}

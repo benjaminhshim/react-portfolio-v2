@@ -64,7 +64,6 @@ class Components extends React.Component {
           {...rest}
 
         />
-          <div className="test">ONE</div>
 
         <Parallax 
         image={require("assets/img/home_sec.jpg")}
@@ -77,8 +76,8 @@ class Components extends React.Component {
             <GridContainer>
               <GridItem>
                 <div className={classes.brand}>
-                  <h1 className={classes.title}>Benjamin Shim</h1>
-                  <h3 className={classes.subtitle}>
+                  <h1 className={`${classes.title} header-name`}>Benjamin Shim</h1>
+                  <h3 className={`${classes.subtitle} header-subtitle`}>
                     Full-Stack Developer | Content Creator
                   </h3>
                 </div>

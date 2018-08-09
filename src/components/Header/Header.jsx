@@ -95,8 +95,6 @@ class Header extends React.Component {
     );
     return (
       <AppBar className={appBarClasses}>
-                <div className="test">TWO</div>
-
         <Toolbar className={classes.container}>
           {leftLinks !== undefined ? brandComponent : null}
           <div 
