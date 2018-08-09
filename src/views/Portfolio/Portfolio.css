@@ -52,7 +52,7 @@
     .xxl-card-front,
     .mobile-card-front {
         width: 75%;
-        display: block;
+        display: block !important;
         margin: 0 auto;
     }
 
