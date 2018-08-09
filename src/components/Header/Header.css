@@ -22,7 +22,7 @@ header h1 {
     }
 
     .Parallax-parallax-180,
-    #parallax {
+    .parallax {
         height: 50vh !important;
     }
     
@@ -31,8 +31,8 @@ header h1 {
 
 @media only screen and (max-width: 680px) {
     .header-name {
-        font-size: 20px;
-        margin-top: 7px;
+        font-size: 20px !important;
+        margin-top: 7px !important;
     }
     /* #main-header h3 {
         display: none;
