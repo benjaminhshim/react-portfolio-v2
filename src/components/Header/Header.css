@@ -11,7 +11,7 @@ header h1 {
 
 @media only screen and (max-width: 992px) {
     .header-name{
-        margin-top: 5px;
+        margin-top: 5px !important;
         font-size: 28px !important;
     }
     .header-subtitle {
@@ -21,9 +21,11 @@ header h1 {
         /* border: 1px solid red; */
     }
 
-    .Parallax-parallax-180 {
+    .Parallax-parallax-180,
+    .parallax {
         height: 50vh !important;
     }
+    
 
 }
 
