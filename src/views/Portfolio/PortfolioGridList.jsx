@@ -47,7 +47,7 @@ class PortfolioGridList extends React.Component {
         return (
             <div className={classes.root} style={{marginBottom: "20px"}}>
 
-                <Grid container spacing={24}>
+                <Grid container spacing={24} className="fullstack-grid">
                     {fullstackData.map(i => (
                         <Grid item xs style={{margin: "20px 0px 0px 0px"}} className="grid-item-full-stack">
 
