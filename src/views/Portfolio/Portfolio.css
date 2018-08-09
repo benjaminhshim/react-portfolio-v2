@@ -48,6 +48,7 @@
     .fullstack-grid,
     .frontend-grid {
         display: block !important;
+        flex: none;
     }
 
     .fullstack-card-front,
