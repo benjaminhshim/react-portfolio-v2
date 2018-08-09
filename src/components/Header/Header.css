@@ -22,7 +22,7 @@ header h1 {
     }
 
     .Parallax-parallax-180,
-    .parallax {
+    #parallax {
         height: 50vh !important;
     }
     
