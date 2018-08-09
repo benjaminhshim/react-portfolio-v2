@@ -66,7 +66,7 @@ class Components extends React.Component {
         />
 
         <Parallax 
-        id="parallax"
+        className="parallax"
         image={require("assets/img/home_sec.jpg")}
         id="content-parallax"
         >
