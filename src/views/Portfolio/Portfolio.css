@@ -7,7 +7,9 @@
     height: calc(100vh - 290px);
 
 }
-
+.fullstack-grid {
+    margin-bottom: -75px !important;
+}
 #kinda-neat {
     margin-top: 25px;
     text-align: center;

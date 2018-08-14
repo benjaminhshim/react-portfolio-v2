@@ -43,7 +43,7 @@ class PortfolioGrid extends React.Component {
                         )
                       },
                       {
-                        tabName: "Kinda Neat",
+                        tabName: "YouTube",
                         tabContent: (
                           <div id="kinda-neat">
                             <KindaNeatModal />

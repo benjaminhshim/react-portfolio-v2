@@ -24,6 +24,7 @@ class CarouselFrontEnd extends React.Component {
       slidesToScroll: 1,
       autoplay: false
     };
+
     return (
       <div className={classes.container}>
 
@@ -41,6 +42,7 @@ class CarouselFrontEnd extends React.Component {
                       src={i.src}
                       info={i.info}
                       href={i.href}
+                      github={i.github}
                       title={i.title}/>
                     :
                     <FrontEndImage 

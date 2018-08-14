@@ -110,10 +110,12 @@ class KindaNeatModal extends React.Component {
                                                 className={classes.modalBody}
                                             >
                                                 <div>
-                                                    <h3><strong>{this.props.title}</strong></h3>
-                                                    <h5>
-                                                        {this.props.info}
-                                                    </h5>
+                                                <h3><strong>{kindaNeatInfo[0].title}</strong></h3>
+                                                    <hr />
+                                                    <h5>{kindaNeatInfo[0].info}</h5>
+                                                    <h5><strong>Role:</strong> {kindaNeatInfo[0].role}</h5>
+
+                                                    
                                                     <p style={{float: "right"}}>
                                                         <a href={kindaNeatInfo[0].viewsite} target="_blank">
                                                             <Button color="info">View Site</Button>

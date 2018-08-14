@@ -76,12 +76,12 @@ class About extends React.Component {
               <div className={classes.description} id="about-body">
                 <p>
                 {/* Benjamin Shim is a full-stack developer based in Los Angeles, CA. He has spent the last seven years as an audio expert in music, entertainment &amp; digital media production working on music, TV, short films, radio, YouTube and podcasts before he decided to start a new chapter in his career as a developer. */}
-                Benjamin Shim is a content creator, digital media producer and musician turned developer. After spending 7 years as an audio expert in music, entertainment, digital media production, TV, short films, radio, YouTube and podcasts, he is making a transition to a new career in development.
+                Benjamin Shim is a content creator, digital media producer and musician turned developer. After spending 7 years as an audio expert in music, entertainment (including TV, short films &amp; radio) and digital media production (including YouTube &amp; podcasts), he is making a transition to a new career in development.
                 <br />
                 <br />
   
                 {/* He is also a musician, content creator and digital media producer specializing in music and audio for short-form visual content. */}
-                Why? After working in the entertainment industry creating content, he now looks to create a new type of product leveraging a coding skill set gained from UCLA Extension's Coding Bootcamp and 1000+ hours of practice. He spealizes in MERN stack development with his strengths in JavaScript--React for front end and Node for back end.
+                Why? After working in the entertainment industry creating content, he now looks to create a new type of product leveraging a coding skill set gained from UCLA Extension's Coding Bootcamp and 1000+ hours of practice. He spealizes in MERN stack development with his strengths in JavaScript (React) for front-end and Node for back-end.
                 <br />
                 <br />
   

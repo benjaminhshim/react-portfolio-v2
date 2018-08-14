@@ -128,9 +128,8 @@ class FrontEndImage extends React.Component {
                                                 <div>
                                                     <h3><strong>{this.props.title}</strong></h3>
                                                     <hr />
-                                                    <h5>
-                                                        {this.props.info}
-                                                    </h5>
+                                                    <h5>{this.props.info}</h5>
+                                                    <h5><strong>Role:</strong> {this.props.role}</h5>
                                                     <p style={{float: "right"}}>
                                                         <a 
                                                             href={this.props.href} 
@@ -141,6 +140,14 @@ class FrontEndImage extends React.Component {
                                                             </Button>
                                                         </a>
                                                     </p>
+
+                                                    {this.props.github !== null &&
+                                                        <p style={{float: "right"}}>
+                                                            <a href={this.props.github} target="_blank">
+                                                                <Button color="info">View Repo</Button>
+                                                            </a>
+                                                        </p> 
+                                                    }
                                                     
                                                 </div>
                                             </DialogContent>
