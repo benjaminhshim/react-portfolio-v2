@@ -58,7 +58,7 @@ class Components extends React.Component {
           fixed
           color="transparent"
           changeColorOnScroll={{
-            height: 275,
+            height: 200,
             color: "white"
           }}
           {...rest}
