@@ -96,7 +96,9 @@ class PortfolioGridList extends React.Component {
                                     item1src={i.item1src}
                                     item2src={i.item2src}
                                     role={i.role}
-                                    item3src={i.item3src}/>
+                                    item3src={i.item3src}
+                                    item4src={i.item4src}
+                                    item5src={i.item5src}/>
                             </Grid>
                     ))}
 

@@ -116,7 +116,9 @@ class FrontEndImage extends React.Component {
                                                     <SlowShiverCarousel 
                                                         item1src={this.props.item1src}
                                                         item2src={this.props.item2src}
-                                                        item3src={this.props.item3src}/>
+                                                        item3src={this.props.item3src}
+                                                        item4src={this.props.item4src}
+                                                        item5src={this.props.item5src}/>
 
                                                 </div>
                                             </DialogContent>

@@ -54,6 +54,24 @@ class SlowShiverCarousel extends React.Component {
                     />
                     
                   </div>
+                  <div>
+                    <img
+                        src={require(`assets/img/${this.props.item4src}`)}
+                        alt="Fourth slide"
+                        className="slick-image"
+
+                    />
+                    
+                  </div>
+                  <div>
+                    <img
+                        src={require(`assets/img/${this.props.item5src}`)}
+                        alt="Fifth slide"
+                        className="slick-image"
+
+                    />
+                    
+                  </div>
                 </Carousel>
               </Card>
             </GridItem>
