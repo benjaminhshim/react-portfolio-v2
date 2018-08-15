@@ -76,7 +76,7 @@ class About extends React.Component {
               <div className={classes.description} id="about-body">
                 <p>
                 {/* Benjamin Shim is a full-stack developer based in Los Angeles, CA. He has spent the last seven years as an audio expert in music, entertainment &amp; digital media production working on music, TV, short films, radio, YouTube and podcasts before he decided to start a new chapter in his career as a developer. */}
-                Benjamin Shim is a content creator, digital media producer and musician turned developer. After spending seven years as an audio expert in music, entertainment (including TV, short films &amp; radio) and digital media production (including YouTube &amp; podcasts), he is making a transition to a new career in webdevelopment.
+                Benjamin Shim is a content creator, digital media producer and musician turned developer. After spending seven years as an audio expert in music, entertainment (including TV, short films &amp; radio) and digital media production (including YouTube &amp; podcasts), he is making a transition to a new career in web development.
                 <br />
                 <br />
   
