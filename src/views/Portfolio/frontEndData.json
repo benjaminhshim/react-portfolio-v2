@@ -4,7 +4,7 @@
         "type": "coming-soon",
         "src": "astrolab-web.png",
         "info": "Yelp meets TripAdvisor meets Augmented Reality--built with React.js, Node.js, Express.js, MongoDB & Mongoose.",
-        "href": "http://slowshiver.com/",
+        "href": "http://astrolab-web.herokuapp.com/",
         "github": "https://github.com/benjaminhshim/Astrolab-Web",
         "title": "Astrolab",
         "details": "Full Stack Application (Mobile with React Native currently in production)",
