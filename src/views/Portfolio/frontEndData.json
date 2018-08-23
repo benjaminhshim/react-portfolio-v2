@@ -1,16 +1,19 @@
 [
     {
-        "name": "xxl",
-        "type": "frontend",
-        "src": "xxl.png",
-        "info": "A memory game built with React.js.",
-        "href": "https://xxl-2018-clicky-game.herokuapp.com/",
-        "github": "https://github.com/benjaminhshim/clicky-game",
-        "title": "2018 XXL Freshman Class Memory Game",
-        "role": "Front End Developer | Independent",
-        "item1src": false,
-        "item2src": false,
-        "item3src": false
+        "name": "astrolab-web",
+        "type": "coming-soon",
+        "src": "astrolab-web.png",
+        "info": "Yelp meets TripAdvisor meets Augmented Reality--built with React.js, Node.js, Express.js, MongoDB & Mongoose.",
+        "href": "http://slowshiver.com/",
+        "github": "https://github.com/benjaminhshim/Astrolab-Web",
+        "title": "Astrolab",
+        "details": "Full Stack Application (Mobile with React Native currently in production)",
+        "role": "Full Stack Developer | Team Lead",
+        "item1src": "astrolab-sign-up.png",
+        "item2src": "astrolab-1.png",
+        "item3src": "astrolab-home.png",
+        "item4src": "astrolab-bookmarks.png",
+        "item5src": "astrolab-3.png"
     },
     {
         "name": "slowshiver",
@@ -20,6 +23,7 @@
         "href": "http://slowshiver.com/",
         "github": null,
         "title": "Slow Shiver/Valente Bertelli",
+        "details": "Website",
         "role": "Front End Developer | Independent",
         "item1src": "slowshiver-1.png",
         "item2src": "slowshiver-5.png",
@@ -28,18 +32,18 @@
         "item5src": "slowshiver-4.png"
     },
     {
-        "name": "astrolab-web",
-        "type": "coming-soon",
-        "src": "astrolab-web.png",
-        "info": "Full stack application built with React.js, Node.js, Express.js, MongoDB & Mongoose.",
-        "href": "http://slowshiver.com/",
-        "github": "https://github.com/benjaminhshim/Astrolab-Web",
-        "title": "Astrolab (Mobile with React Native currently in production)",
-        "role": "Full Stack Developer | Lead",
-        "item1src": "astrolab-sign-up.png",
-        "item2src": "astrolab-1.png",
-        "item3src": "astrolab-home.png",
-        "item4src": "astrolab-bookmarks.png",
-        "item5src": "astrolab-3.png"
+        "name": "valente",
+        "type": "fullstack",
+        "src": "valente-catalog.png",
+        "info": "A catalog of a composer's cues + an online service built with React.js, Node.js, Express.js, MongoDB & Mongoose.",
+        "href": null,
+        "github": null,
+        "title": "Valente Bertelli Composer Catalog",
+        "details": "Full Stack Application (In production)",
+        "role": "Full Stack Developer | Independent",
+        "item1src": false,
+        "item2src": false,
+        "item3src": false
     }
+
 ]

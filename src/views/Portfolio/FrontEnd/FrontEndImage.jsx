@@ -129,6 +129,8 @@ class FrontEndImage extends React.Component {
                                             >
                                                 <div>
                                                     <h3><strong>{this.props.title}</strong></h3>
+                                                    <h5><em>{this.props.details}</em></h5>
+
                                                     <hr />
                                                     <h5>{this.props.info}</h5>
                                                     <h5><strong>Role:</strong> {this.props.role}</h5>

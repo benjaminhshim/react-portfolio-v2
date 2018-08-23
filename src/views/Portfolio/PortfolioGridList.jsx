@@ -82,7 +82,8 @@ class PortfolioGridList extends React.Component {
                                     href={i.href}
                                     github={i.github}
                                     role={i.role}
-                                    title={i.title}/>
+                                    title={i.title}
+                                    details={i.details}/>
                             </Grid>
                         :
                             <Grid item xs style={{margin: "10px 0px 0px 0px"}}>
@@ -98,7 +99,8 @@ class PortfolioGridList extends React.Component {
                                     role={i.role}
                                     item3src={i.item3src}
                                     item4src={i.item4src}
-                                    item5src={i.item5src}/>
+                                    item5src={i.item5src}
+                                    details={i.details}/>
                             </Grid>
                     ))}
 

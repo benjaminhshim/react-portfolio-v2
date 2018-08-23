@@ -3,7 +3,7 @@
         "name": "scrapebeast",
         "type": "fullstack",
         "src": "scrapebeast.png",
-        "info": "A web scraping application built with HTML, CSS, JavaScript, jQuery, Node.js, Express.js, MongoDB & Mongoose.",
+        "info": "A Hypebeast-scraping application built with HTML, CSS, JavaScript, jQuery, Node.js, Express.js, MongoDB & Mongoose.",
         "href": "https://scrapebeast.herokuapp.com/",
         "github": "https://github.com/benjaminhshim/Scrapebeast",
         "title": "Scrapebeast",
