@@ -1,0 +1,145 @@
+[
+    {
+        "name": "scrapebeast",
+        "type": "fullstack",
+        "src": "scrapebeast.png",
+        "info": "A full-stack application that scrapes Hypebeast.com and lets the user save articles, add notes to saved articles & delete saved articles. Built with HTML, CSS, JavaScript, jQuery, Node.js, Express.js, MongoDB & Mongoose.",
+        "href": "https://scrapebeast.herokuapp.com/",
+        "github": "https://github.com/benjaminhshim/Scrapebeast",
+        "title": "Scrapebeast",
+        "details": "Full Stack Web Application",
+        "role": "Full Stack Developer | Independent",
+        "frontend": "HTML, CSS, JavaScript & jQuery",
+        "backend": "Node.js, Express.js, MongoDB & Mongoose",
+        "item1src": "scrapebeast-1.png",
+        "item2src": "scrapebeast-2.png",
+        "item3src": "scrapebeast-3.png",
+        "background": "rgb(79, 95, 104)",
+        "styles": {
+            "background": "rgb(26, 28, 31)",
+            "boxShadow": "0px 4px 10px 0px rgb(0, 0, 0)",
+            "buttonBackground": "rgb(158, 158, 158)"
+        },
+        "carousel": [
+            {
+                "item1src": "scrapebeast-1.png"
+            },
+            {
+                "item2src": "scrapebeast-2.png"
+            },
+            {
+                "item3src": "scrapebeast-3.png"
+            }
+    ]
+    },
+    {
+        "name": "astrolab-web",
+        "type": "coming-soon",
+        "src": "astrolab-web.png",
+        "info": "The web experience of a mobile app that brings Augmented Reality to Yelp and Trip Advisor. Mobile with React Native currently in production. Built with React.js, Node.js, Express.js, MongoDB & Mongoose.",
+        "href": "http://astrolab-web.herokuapp.com/",
+        "github": "https://github.com/benjaminhshim/Astrolab-Web",
+        "title": "Astrolab",
+        "details": "Full Stack Web Application",
+        "role": "Full Stack Developer | Team Lead",
+        "item1src": "astrolab-sign-up.png",
+        "item2src": "astrolab-1.png",
+        "item3src": "astrolab-home.png",
+        "item4src": "astrolab-bookmarks.png",
+        "item5src": "astrolab-3.png",
+        "background": "rgb(152, 207, 152)",
+        "styles": {
+            "background": "rgb(152, 207, 152)",
+            "boxShadow": "0px 4px 10px 0px rgb(59, 112, 75)",
+            "buttonBackground": "rgb(233, 96, 96)"
+        }
+    },
+    
+    {
+        "name": "canvas",
+        "type": "fullstack",
+        "src": "canvas.png",
+        "info": "A full-stack application that brings fundraising, transactions & a social experience to bartenders & mixologists. Built with HTML, CSS, JavaScript, jQuery, Node.js, Express.js, MySQL & Sequelize.",
+        "href": "https://glacial-depths-40871.herokuapp.com/",
+        "github": "https://github.com/celsooliveiraTBDE/canvas-drnx",
+        "title": "Canvas",
+        "details": "Full Stack Web Application",
+        "role": "Full Stack Developer | Team member",
+        "frontend": "HTML, CSS, JavaScript & jQuery",
+        "backend": "Node.js, Express.js, MySQL & Sequelize",
+        "item1src": "canvas-1.png",
+        "item2src": "canvas-2.png",
+        "item3src": "canvas-3.png",
+        "background": "rgb(175, 147, 106)",
+        "styles": {
+            "background": "rgb(175, 147, 106)",
+            "boxShadow": "0px 4px 10px 0px rgb(114, 92, 60)",
+            "buttonBackground": "rgb(49, 56, 83)"
+        }
+    },
+    {
+        "name": "reactband",
+        "type": "fullstack",
+        "src": "reactband.png",
+        "info": "A full-stack application utilizing YouTube & Bandsintown API's that lets user save & delete music video & tour dates.  Built with React.js, Node.js, Express.js, MongoDB & Mongoose.",
+        "href": "https://afternoon-lake-49848.herokuapp.com/",
+        "github": "https://github.com/benjaminhshim/nytreact",
+        "title": "Reactband",
+        "details": "Full Stack Web Application",
+        "role": "Full Stack Developer | Independent",
+        "frontend": "React.js",
+        "backend": "Node.js, Express.js, MongoDB & Mongoose",
+        "item1src": "reactband.png",
+        "item2src": "reactband-1.png",
+        "item3src": "reactband-2.png",
+        "background": "rgb(142, 185, 182)",
+        "styles": {
+            "background": "rgb(142, 185, 182)",
+            "boxShadow": "0px 4px 10px 0px rgb(99, 156, 153)",
+            "buttonBackground": "rgb(63, 117, 115)"
+        }
+    },
+    {
+        "name": "slowshiver",
+        "type": "frontend",
+        "src": "slowshiver.png",
+        "info": "A website for an award-winning composer and recording artist built with Squarespace and over 1000 lines of custom CSS.",
+        "href": "http://slowshiver.com/",
+        "github": null,
+        "title": "Slow Shiver",
+        "details": "Front-End/Squarespace",
+        "role": "Front End Developer | Independent",
+        "item1src": "slowshiver-1.png",
+        "item2src": "slowshiver-5.png",
+        "item3src": "slowshiver-2.png",
+        "item4src": "slowshiver-3.png",
+        "item5src": "slowshiver-4.png",
+        "background": "rgb(44, 44, 68)",
+        "styles": {
+            "background": "rgb(35, 36, 58)",
+            "boxShadow": "0px 4px 10px 0px rgb(24, 24, 44)",
+            "buttonBackground": "rgb(231, 150, 150)"
+        }
+    },
+    {
+        "name": "valente",
+        "type": "fullstack",
+        "src": "valente-catalog.png",
+        "info": "A full-stack application that let's composers upload their catalog of cues, tag them with keywords and filter them through search. Clients will be able to purchase cues with ease. Built with React.js, Node.js, Express.js, MongoDB & Mongoose.",
+        "href": null,
+        "github": null,
+        "title": "Composer Catalog",
+        "details": "Full Stack Web Application",
+        "role": "Full Stack Developer | Independent",
+        "item1src": false,
+        "item2src": false,
+        "item3src": false,
+        "background": "rgb(13, 14, 49)",
+        "styles": {
+            "background": "rgb(41, 41, 51)",
+            "boxShadow": "0px 4px 10px 0px rgb(15, 15, 22)",
+            "buttonBackground": "rgb(29, 29, 36)"
+        }
+    }
+
+]

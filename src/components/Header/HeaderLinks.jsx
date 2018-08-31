@@ -34,6 +34,18 @@ function HeaderLinks({ ...props }) {
           color="transparent"
           target="_blank"
           className={classes.navLink}
+          onClick={props.scrollToYoutube}
+        >
+          YouTube
+        </Button>
+      </ListItem>
+
+      <ListItem className={classes.listItem}>
+      <Button
+          href=""
+          color="transparent"
+          target="_blank"
+          className={classes.navLink}
           onClick={props.scrollToAbout}
         >
           About

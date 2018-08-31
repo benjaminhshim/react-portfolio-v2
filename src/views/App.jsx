@@ -12,10 +12,12 @@ import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import AboutGrid from "./About/AboutGrid.jsx";
-import PortfolioGrid from './Portfolio/PortfolioGrid.jsx';
+import PortfolioGrid from './Portfolio/PortfolioGrid2.jsx';
 
 import Contact from "./Contact/Contact.jsx";
 import './App.css';
+
+import KindaNeatModal from './Portfolio/KindaNeat/KindaNeatModal.jsx';
 
 import scrollToComponent from 'react-scroll-to-component';
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
@@ -37,6 +39,10 @@ class Components extends React.Component {
   scrollToContact = () => {
     scrollToComponent(this.Contact, { offset: 0, align: 'top', duration: 1500})
   }
+
+  scrollToYoutube = () => {
+    scrollToComponent(this.Youtube, { offset: 0, align: 'top', duration: 1500})
+  }
   
   render() {
     const { classes, ...rest } = this.props;
@@ -53,6 +59,8 @@ class Components extends React.Component {
             scrollToAbout={this.scrollToAbout}
             scrollToPortfolio={this.scrollToPortfolio}
             scrollToContact={this.scrollToContact}
+            scrollToYoutube={this.scrollToYoutube}
+
 
           />}
           fixed
@@ -76,7 +84,7 @@ class Components extends React.Component {
             >
             <GridContainer>
               <GridItem>
-                <div className={classes.brand}>
+                <div className={classes.brand} style={{maxWidth: "1450px"}}>
                   <h1 className={`${classes.title} header-name`}>Benjamin Shim</h1>
                   <h3 className={`${classes.subtitle} header-subtitle`}>
                     Full-Stack Developer | Content Creator
@@ -90,7 +98,10 @@ class Components extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)} >
 
           {/* <Portfolio ref={(section) => { this.Portfolio = section; }}/> */}
+          {/* <PortfolioGrid ref={(section) => { this.Portfolio = section; }}/> */}
           <PortfolioGrid ref={(section) => { this.Portfolio = section; }}/>
+
+          <KindaNeatModal ref={(section) => { this.Youtube = section; }} />
 
           {/* <About ref={(section) => { this.About = section; }} /> */}
           <AboutGrid ref={(section) => { this.About = section; }} />

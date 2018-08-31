@@ -1,11 +1,8 @@
 import React from "react";
 // react component for creating beautiful carousel
 import Carousel from "react-slick";
-// @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
-// @material-ui/icons
-import LocationOn from "@material-ui/icons/LocationOn";
-// core components
+
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Card from "components/Card/Card.jsx";
@@ -29,32 +26,37 @@ class FullStackCarouselImages extends React.Component {
             <GridItem>
               <Card carousel>
                 <Carousel {...settings}>
-                  <div>
-                    <img
-                        src={require(`assets/img/${this.props.item1src}`)}
-                        alt="First slide"
-                        className="slick-image"
-                    />
-                    
-                  </div>
-                  <div
->
-                    <img
-                        src={require(`assets/img/${this.props.item2src}`)}
-                        alt="Second slide"
-                        className="slick-image"
-                    />
-                    
-                  </div>
-                  <div>
-                    <img
-                        src={require(`assets/img/${this.props.item3src}`)}
-                        alt="Third slide"
-                        className="slick-image"
 
-                    />
+                    <div>
+                      
+                      <img
+                          src={require(`assets/img/${this.props.item1src}`)}
+                          alt="First slide"
+                          className="slick-image"
+                      />
+                      
+                    </div>
+                    <div>
+                      <img
+                          src={require(`assets/img/${this.props.item2src}`)}
+                          alt="Second slide"
+                          className="slick-image"
+                      />
+                      
+                    </div>
+                    <div>
+                      <img
+                          src={require(`assets/img/${this.props.item3src}`)}
+                          alt="Third slide"
+                          className="slick-image"
+
+                      />
+                    </div>
                     
-                  </div>
+
+
+                    
+                
                 </Carousel>
               </Card>
             </GridItem>

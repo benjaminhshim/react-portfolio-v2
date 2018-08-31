@@ -13,6 +13,7 @@ import KindaNeat from 'assets/img/kindaneat.jpg'
 import kindaNeatInfo from './kindaneat.json';
 import Button from "components/CustomButtons/Button.jsx";
 
+import KindaNeatSocials from './KindaNeat.jsx';
 
 // @material-ui/icons
 import Close from "@material-ui/icons/Close";
@@ -71,6 +72,7 @@ class KindaNeatModal extends React.Component {
         return (
             <div id="kinda-neat">
             
+            <h2>Kinda Neat</h2>
                 <div className="kindaneat-img" style={{borderRadius: "10px"}}>
                     <img 
                         src={KindaNeat} 
@@ -142,6 +144,8 @@ class KindaNeatModal extends React.Component {
                         </GridContainer>
                     </div>
                 </div>
+
+                <KindaNeatSocials />
             </div>
         )
     }

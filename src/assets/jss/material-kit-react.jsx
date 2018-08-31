@@ -25,8 +25,8 @@ const transition = {
 };
 
 const conatinerFluid = {
-  paddingRight: "15px",
-  paddingLeft: "15px",
+  // paddingRight: "15px",
+  // paddingLeft: "15px",
   marginRight: "auto",
   marginLeft: "auto",
   width: "100%"
@@ -43,7 +43,8 @@ const container = {
     maxWidth: "960px"
   },
   "@media (min-width: 1200px)": {
-    maxWidth: "1140px"
+    maxWidth: "1450px",
+    // maxWidth: "100%"
   }
 };
 

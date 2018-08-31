@@ -4,16 +4,20 @@
     /* margin-bottom: -450px; */
     /* border: 1px solid red; */
     overflow: auto;
+    background: rgb(243, 243, 243);
+    text-align: center;
 }
 
 .about-header {
     text-align: center;
-    /* margin-bottom: -50px; */
+    margin-bottom: 50px;
 }
 
-/* #about-body {
-    margin-bottom: 50px;
-} */
+#about-body {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: -30px;
+}
 p a {
     color: teal;
 }

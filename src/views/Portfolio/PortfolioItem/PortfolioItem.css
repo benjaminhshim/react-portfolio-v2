@@ -1,0 +1,60 @@
+.portfolio-item-div {
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+.portfolio-item-div img{
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* box-shadow: 0px 4px 10px 0px rgb(99, 156, 153); */
+
+
+}
+
+.portfolio-item-description {
+    text-align: center;
+    font-family: "Dosis", "Helvetica", "Arial", sans-serif;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.portfolio-item-description h2 {
+    color: white;
+    margin-top: 50px;
+    font-family: "Futura";
+    font-size: 36px;
+}
+
+.portfolio-item-description h4 {
+    margin-top: -10px;
+    color: white;
+    font-family: "Dosis";
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.portfolio-item-description p {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
+.portfolio-item-button {
+    padding: 15px 30px;
+    border-radius: 20px;
+    /* background: rgb(158, 158, 158);  */
+    color: white;
+
+    border: none;
+    margin-top: 20px;
+    font-size: 14px; 
+    
+}
+
+.portfolio-item-button:hover {
+    cursor: pointer;
+}

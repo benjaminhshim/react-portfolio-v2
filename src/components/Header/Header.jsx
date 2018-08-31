@@ -72,6 +72,7 @@ class Header extends React.Component {
     const {
       classes,
       color,
+      maxWidth,
       rightLinks,
       leftLinks,
       brand,
@@ -143,7 +144,8 @@ class Header extends React.Component {
 }
 
 Header.defaultProp = {
-  color: "white"
+  color: "white",
+  maxWidth: "1450px"
 };
 
 
